@@ -1,0 +1,17 @@
+%h1 Listing things
+%table
+  %thead
+    %tr
+      %th Name
+      %th Age
+      %th{:colspan => "3"}
+  %tbody
+    - @things.each do |thing|
+      %tr
+        %td= thing.name
+        %td= thing.age
+        %td= link_to 'Show', thing
+        %td= link_to 'Edit', edit_thing_path(thing)
+        %td= link_to 'Destroy', thing, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Thing', new_thing_path

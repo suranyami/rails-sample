@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title RailsSample
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    .container
+      %header
+        %nav
+          = link_to 'Home',    root_path, class: :link
+          = link_to 'Things', things_path, class: :link
+
+      = yield

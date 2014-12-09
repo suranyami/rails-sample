@@ -1,0 +1,13 @@
+body {
+  font-family: $helvetica;
+
+  header {
+    height: 50px;
+
+  }
+
+  .container {
+    @include outer-container;
+    top: 60px;
+  }
+}
