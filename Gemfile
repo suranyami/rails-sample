@@ -16,7 +16,7 @@ gem 'haml-rails'
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
-gem 'simple-form'
+gem 'simple_form'
 
 group :development, :test do
   gem 'html2haml'
