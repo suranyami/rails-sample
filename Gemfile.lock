@@ -146,8 +146,6 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    rdoc (4.1.2)
-      json (~> 1.4)
     responders (1.1.1)
       railties (>= 3.2, < 4.2)
     rspec (3.1.0)
@@ -178,9 +176,6 @@ GEM
       sass (~> 3.2.0)
       sprockets (~> 2.8, <= 2.11.0)
       sprockets-rails (~> 2.0)
-    sdoc (0.4.1)
-      json (~> 1.7, >= 1.7.7)
-      rdoc (~> 4.0)
     sexp_processor (4.4.4)
     simple_form (3.1.0)
       actionpack (~> 4.0)
@@ -217,7 +212,6 @@ PLATFORMS
 DEPENDENCIES
   bitters
   bourbon
-  coffee-rails (~> 4.0.0)
   devise
   guard-bundler
   guard-livereload
@@ -225,13 +219,12 @@ DEPENDENCIES
   guard-rspec
   haml-rails
   html2haml
-  jbuilder (~> 2.0)
+  jbuilder
   jquery-rails
   neat
   rails (= 4.1.6)
   rspec-rails
-  sass-rails (~> 4.0.3)
-  sdoc (~> 0.4.0)
+  sass-rails
   simple_form
   sqlite3
   turbolinks
