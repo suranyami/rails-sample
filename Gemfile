@@ -24,3 +24,7 @@ group :development, :test do
   gem 'guard-rails'
   gem 'guard-livereload'
 end
+
+group :production do
+  gem 'rails_12factor', '0.0.2'
+end
