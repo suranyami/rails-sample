@@ -15,6 +15,7 @@ gem 'bourbon'
 gem 'neat'
 gem 'bitters'
 gem 'simple_form'
+gem 'engineyard'
 
 group :development, :test do
   gem 'html2haml'
