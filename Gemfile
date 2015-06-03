@@ -16,6 +16,7 @@ gem 'neat'
 gem 'bitters'
 gem 'simple_form'
 gem 'engineyard'
+gem 'unicorn'
 
 group :development, :test do
   gem 'html2haml'
