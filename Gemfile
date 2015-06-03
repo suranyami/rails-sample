@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.6'
 
 gem 'rails', '4.1.6'
+gem 'rack'
 gem 'pg'
 gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
@@ -24,8 +25,4 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'guard-rails'
   gem 'guard-livereload'
-end
-
-group :production do
-  gem 'rails_12factor', '0.0.2'
 end
